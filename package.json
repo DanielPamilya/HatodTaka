@@ -1,0 +1,6 @@
+{
+  "devDependencies": {
+    "@fawmi/vue-google-maps": "^0.9.79",
+    "axios": "^1.6.2"
+  }
+}
