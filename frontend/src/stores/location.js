@@ -32,5 +32,15 @@ const updateCurrentLocation = async () => {
     }
 }
 
-  return { destination, current, updateCurrentLocation }
+const reset = () => {
+    destination.name = ''
+    destination.address = ''
+    destination.geometry.lat = null
+    destination.geometry.lng = null
+
+    current.geometry = null
+    current.geometry = null
+}
+
+  return { destination, current, updateCurrentLocation, reset}
 })

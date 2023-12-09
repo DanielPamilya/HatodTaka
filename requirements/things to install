@@ -5,3 +5,5 @@ https://developers.google.com/maps/documentation/javascript/examples/places-auto
 
 use google vue 
 https://vue-map.netlify.app/
+
+npm install --save-dev laravel-echo pusher-js
