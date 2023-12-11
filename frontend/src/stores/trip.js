@@ -33,6 +33,7 @@ export const useTripStore = defineStore('trip', () => {
     const is_started = ref(false)
     const is_complete = ref(false)
 
+    //reset all values if the driver decline the requested trip
     const reset = () => {
         id.value = null
         user_id.value = null

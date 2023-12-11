@@ -4,6 +4,9 @@ import LandingView from '@/views/landingView.vue'
 import LocationView from '@/views/LocationView.vue'
 import MapView from '@/views/MapView.vue'
 import TripView from '@/views/TripView.vue'
+import DriverView from '@/views/DriverView.vue'
+import StandbyView from '@/views/StandbyView.vue'
+import DrivingView from '@/views/DrivingView.vue'
 import axios from 'axios'
 import { isEqual } from 'fast-deep-equal';
 
@@ -34,6 +37,21 @@ const router = createRouter({
       path: '/trip',
       name: 'trip',
       component: TripView
+    },
+    {
+      path: '/standby',
+      name: 'standby',
+      component: StandbyView
+    },
+    {
+      path: '/driver',
+      name: 'driver',
+      component: DriverView
+    },
+    {
+      path: '/driving',
+      name: 'driving',
+      component: DrivingView
     }
   ]
 })
